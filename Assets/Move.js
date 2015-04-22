@@ -19,10 +19,12 @@ function FixedUpdate ()
 	if (Input.GetKey(moveUp))
 	{
 		rigidbody2D.velocity.y = speed;
+		grahamAnimator.SetFloat("moveVert", speed);
 	}
 	else if (Input.GetKey(moveDown))
 	{
 		rigidbody2D.velocity.y = speed *-1;
+		grahamAnimator.SetFloat("moveVert", speed *-1);
 	}
 	else if (Input.GetKey(moveLeft))
 	{
@@ -39,5 +41,6 @@ function FixedUpdate ()
 		rigidbody2D.velocity.y = 0;
 		rigidbody2D.velocity.x = 0;
 		grahamAnimator.SetFloat("moveHor", 0);
+		grahamAnimator.SetFloat("moveVert", 0);
 	}
 }
