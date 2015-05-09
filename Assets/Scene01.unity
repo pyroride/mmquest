@@ -383,10 +383,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1103377831}
   - 212: {fileID: 1103377830}
-  - 61: {fileID: 1103377832}
-  - 61: {fileID: 1103377835}
-  - 58: {fileID: 1103377834}
-  - 68: {fileID: 1103377833}
+  - 68: {fileID: 1103377832}
+  - 60: {fileID: 1103377833}
   m_Layer: 8
   m_Name: Kings_Quest_BG
   m_TagString: Untagged
@@ -413,7 +411,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 3737780073
-  m_SortingOrder: -10
+  m_SortingOrder: -200
   m_Sprite: {fileID: 21300000, guid: 6dbff9961e55b704ebcdb9581ab40d87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &1103377831
@@ -427,6 +425,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
 --- !u!61 &1103377832
 BoxCollider2D:
@@ -440,6 +439,10 @@ BoxCollider2D:
   m_Size: {x: 18, y: 2}
   m_Center: {x: 0, y: -4.30000019}
 --- !u!68 &1103377833
+=======
+  m_RootOrder: 3
+--- !u!68 &1103377832
+>>>>>>> local-rob
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -449,21 +452,22 @@ EdgeCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Points:
-  - {x: -8.7411356, y: -2.4183929}
-  - {x: -.675654411, y: -2.48402429}
-  - {x: 1.45363212, y: -2.45503521}
-  - {x: 2.42150831, y: -1.7369411}
-  - {x: 3.25193644, y: -1.54965556}
-  - {x: 1.18350482, y: -.951796472}
-  - {x: .556295395, y: 3.51187468}
-  - {x: 2.62294269, y: 3.52518749}
-  - {x: 6.0044632, y: .298404455}
-  - {x: 5.96206951, y: -1.27984822}
-  - {x: 6.33605099, y: -1.509866}
-  - {x: 6.87247658, y: -1.3499099}
-  - {x: 8.96098995, y: 1.46569216}
---- !u!58 &1103377834
-CircleCollider2D:
+  - {x: -6.40874147, y: -1.4619478}
+  - {x: -7.55564594, y: -3.65077925}
+  - {x: 7.55933952, y: -3.64785075}
+  - {x: 6.53478479, y: -2.35217881}
+  - {x: 5.73484516, y: -2.30205321}
+  - {x: 5.01778603, y: -.921870112}
+  - {x: 6.06425905, y: -.838438094}
+  - {x: 4.58632135, y: 1.18047333}
+  - {x: .234679222, y: 1.22069025}
+  - {x: -.194596052, y: 1.52960443}
+  - {x: -.811841965, y: 1.51971912}
+  - {x: -.828661203, y: .978237331}
+  - {x: -5.18297815, y: .988743126}
+  - {x: -5.9073019, y: -.351258785}
+--- !u!60 &1103377833
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -471,19 +475,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: 1.74350357
-  m_Center: {x: 5.5999999, y: -4}
---- !u!61 &1103377835
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1103377829}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 1, y: 4}
-  m_Center: {x: -9.30000019, y: -3.5}
+  m_Poly:
+    m_Paths:
+    - - {x: -2.59345341, y: .190152168}
+      - {x: -3.37613249, y: -2.1824224}
+      - {x: 1.38386106, y: -2.18242264}
+      - {x: .743488312, y: .261305332}
 --- !u!1 &1386337579
 GameObject:
   m_ObjectHideFlags: 0
