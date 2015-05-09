@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Inventory.js" />
+     <Compile Include="Assets\InventoryPanel.js" />
      <Compile Include="Assets\Move.js" />
      <Compile Include="Assets\starCollide.js" />
  <Reference Include="UnityEngine.UI">

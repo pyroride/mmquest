@@ -1,21 +1,29 @@
 ﻿#pragma strict
 
-var hasStar : boolean;
+var star : GameObject;
 
-function Start () {
-
-}
-
-function Update () {
+function Start () 
+{
 
 }
 
-function getStar() {
-	hasStar = true;
+function Update () 
+{
+
+}
+
+function pickUpStar(star) 
+{
+	this.star = star;
 	Debug.Log("Has Star");
 }
 
-function loseStar() {
-	hasStar = false;
+function getStar() 
+{
+	return star;
+}
+function loseStar() 
+{
+	this.star = null;
 	Debug.Log("Lost Star");
 }
